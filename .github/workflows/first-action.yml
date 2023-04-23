@@ -1,5 +1,5 @@
 name: First Workflow
-on: workflow_disptach
+on: workflow_dispatch
 jobs: 
   first-job:
     runs-on: windows-2019

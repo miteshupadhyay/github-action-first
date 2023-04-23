@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_disptach
+jobs: 
+  first-job:
+    runs-on: windows-2019
+    steps:
+      - name: Print Gretting
+        run: echo "HEllo Workd"
+      - name: Print Good Bye
+        run: echo "Done - Bye"

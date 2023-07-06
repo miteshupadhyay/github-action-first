@@ -5,6 +5,8 @@ jobs:
     runs-on: windows-2019
     steps:
       - name: Print Gretting
-        run: echo "HEllo Work Today"
+        run: |
+            echo "HEllo Work Today"
+            echo "HEllo Work Tomorrow"
       - name: Print Good Bye
         run: echo "Done - Bye"
